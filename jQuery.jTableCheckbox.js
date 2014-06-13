@@ -7,7 +7,7 @@ $.fn.jTableCheckbox = function(options){
         showTicks: true,                //-- show ticks in the far right column
         showTickValue: '&#10003;',      //-- value for the ticks default is html tick
         showTickHeader: '&nbsp;',       //-- heading for the ticks column
-        showTickWidth: 15               //-- width of the column for ticks
+        showTickWidth: 30               //-- width of the column for ticks
     };
 
     //-- merge the options --//

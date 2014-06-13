@@ -47,7 +47,7 @@ $('table').jTableCheckbox({
     showTicks: true,                  //-- do you want to display ticks in a far left column for selected rows?
     showTickValue: '&#10003;',        //-- html of the tick. can also accept <i class="icon-*"></i>
     showTickHeader: '&nbsp;',         //-- text to go in heading of tick column
-    showTickWidth: 15                 //-- width of the tick column. stops it collapsing
+    showTickWidth: 30                 //-- width of the tick column. stops it collapsing
 });
 ```
 #### Anything else?
