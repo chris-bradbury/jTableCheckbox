@@ -13,6 +13,13 @@ jTableCheckbox turns each table row into a large checkbox.
 <script src="jQuery.jTableCheckbox.min.js"></script>
 ```
 * Add `data-jtable="xx"` to the first `td` of each row in your table. jTableCheckbox uses the `data-jtable` attribute in the checkbox for form submission.
+```html
+<table><tbody><tr>
+        <td data-jtable="row-1"></td>
+    </tr><tr>
+        <td data-jtable="row-2"></td>
+</tr></tbody></table>
+```
 * jTableCheckbox adds a class of `active` to a row that has been checked. So probably best to include some css for this class. Nice to include a hover on the row too. And a pointer cursor.
 ```css
 table tbody tr.active{
