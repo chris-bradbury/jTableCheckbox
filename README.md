@@ -7,12 +7,12 @@ jTableCheckbox turns each table row into a large checkbox.
   
 [Demo](http://jtablecheckbox.chrisbradbury.net "jTableCheckbox Demo")
 #### How do I use it?
-* Include [jQuery](http://jquery.com/ "jQuery") followed by `jQuery.jTableCheckbox.js`. There is also a minified script included.
+1. Include [jQuery](http://jquery.com/ "jQuery") followed by `jQuery.jTableCheckbox.js`. There is also a minified script included.
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="jQuery.jTableCheckbox.min.js"></script>
 ```
-* Add `data-jtable="xx"` to the first `td` of each row in your table. jTableCheckbox uses the `data-jtable` attribute in the checkbox for form submission.
+2. Add `data-jtable="xx"` to the first `td` of each row in your table. jTableCheckbox uses the `data-jtable` attribute in the checkbox for form submission.
 ```html
 <table><tbody><tr>
         <td data-jtable="row-1"></td>
@@ -20,7 +20,7 @@ jTableCheckbox turns each table row into a large checkbox.
         <td data-jtable="row-2"></td>
 </tr></tbody></table>
 ```
-* jTableCheckbox adds a class of `active` to a row that has been checked. So probably best to include some css for this class. Nice to include a hover on the row too. And a pointer cursor.
+3. jTableCheckbox adds a class of `active` to a row that has been checked. So probably best to include some css for this class. Nice to include a hover on the row too. And a pointer cursor.
 ```css
 table tbody tr.active{
     background-color: #123456;
@@ -34,7 +34,7 @@ table tbody{
     cursor: pointer;
 }
 ```
-* Finally, apply jTableCheckbox to your table.
+4. Finally, apply jTableCheckbox to your table.
 ```javascript
 $('table').jTableCheckbox();
 ```
