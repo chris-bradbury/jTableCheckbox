@@ -1,0 +1,29 @@
+{
+    "name": "jTableCheckbox",
+    "title": "jQuery Plugin for Table rows acting as Checkboxes.",
+    "description": "jTableCheckbox turns each table row into a large checkbox.",
+    "keywords": [ "table", "checkbox" ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Chris Bradbury",
+        "url": "http://www.chrisbradbury.net"
+    },
+    "maintainers": [
+    {
+    "name": "Apycom.com",
+    "url": "http://apycom.com/"
+    }
+    ],
+    "licenses": [
+        {
+        "type": "Free for non-commercial use",
+        "url": "http://apycom.com/"
+        }
+    ],
+    "homepage": "http://jtablecheckbox.chrisbradbury.net",
+    "demo": "http://jtablecheckbox.chrisbradbury.net",
+    "download": "https://github.com/chris-bradbury/jTableCheckbox",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
