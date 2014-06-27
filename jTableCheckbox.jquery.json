@@ -3,21 +3,15 @@
     "title": "jTableCheckbox",
     "description": "jTableCheckbox turns each table row into a large checkbox.",
     "keywords": [ "table", "checkbox" ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": {
         "name": "Chris Bradbury",
         "url": "http://www.chrisbradbury.net"
     },
-    "maintainers": [
-    {
-    "name": "Apycom.com",
-    "url": "http://apycom.com/"
-    }
-    ],
     "licenses": [
         {
         "type": "Free for non-commercial use",
-        "url": "http://apycom.com/"
+        "url": "http://www.chrisbradbury.net"
         }
     ],
     "homepage": "http://jtablecheckbox.chrisbradbury.net",
