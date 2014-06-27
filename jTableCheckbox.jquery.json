@@ -1,6 +1,6 @@
 {
     "name": "jTableCheckbox",
-    "title": "jQuery Plugin for Table rows acting as Checkboxes.",
+    "title": "jTableCheckbox",
     "description": "jTableCheckbox turns each table row into a large checkbox.",
     "keywords": [ "table", "checkbox" ],
     "version": "1.0.0",
