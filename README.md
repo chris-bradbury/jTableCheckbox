@@ -52,4 +52,4 @@ $('table').jTableCheckbox({
 ```
 #### Anything else?
 Not really, no. It's been tested on all major (and vintage) browsers. Also works on a mobile device.  
-Any issues or suggestions, let me know [@chrisbradbury](https://twitter.com/chrisbradbury, "Twitter chrisbradbury")
+Any issues or suggestions, let me know [@chrisbradbury](https://twitter.com/chrisbradbury)
